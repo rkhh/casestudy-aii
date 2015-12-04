@@ -107,11 +107,6 @@ body {
     padding: 0;
 }
 
-.sidebar, .navigation, .page-section, .aii {
-    border: dotted 2px #BB7249;
-    border-spacing: 1px;
-} 
-
 .page {
     position: absolute;
     background-color: white;
@@ -136,6 +131,8 @@ body {
     padding: 20px;
     margin: 0;
     width: 75%;
+    border-top: dotted 2px #BB7249;
+    border-spacing: 1px;
 }
 
 .page-section {
@@ -143,6 +140,8 @@ body {
     width: 75%;
     text-align: left;
     padding: 0px 20px 0px 20px;
+    border-top: dotted 2px #BB7249;
+    border-spacing: 1px;
 }
 
 .about h2 {
@@ -186,16 +185,41 @@ body {
 
 .sidebar {
     position: absolute;
+    overflow: auto;
     width: 25%;
     top: 200px;
     right: 0;
+    color: #77839F;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 200px;
+    line-height: 1em;
+    border-top: dotted 2px #BB7249;
+    border-left: dotted 2px #BB7249;
+    border-spacing: 1px;
+    text-align: left;
 }
 
 .sidebar h2 {
     text-transform: uppercase;
     color: #BB7249;
     font-size: 14px;
-    padding-bottom: 0;
+}
+
+.sidebar a {
+    color: #BB7249;
+}
+
+.sidebar ul {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+    list-style-type: square;
+}
+
+#sidetext {
+    padding-top: 120px;
 }
 
 .footer {
