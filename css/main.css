@@ -56,7 +56,6 @@ hr {
 audio,
 canvas,
 iframe,
-img,
 svg,
 video {
     vertical-align: middle;
@@ -94,6 +93,116 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar, .navigation, .page-section {
+    border: dotted 2px #BB7249;
+    border-spacing: 1px;
+} 
+
+.page-section {
+    
+}
+
+.page {
+    position: absolute;
+    background-color: white;
+    width: 900px;
+    margin-left: -450px;
+    margin-top: 0px;
+    left: 50%;
+    border: solid 1px #BB7249;
+}
+
+.navigation {
+    float: left;
+    padding: 20px;
+    margin: 0;
+}
+
+.aii {
+    clear: both;
+    overflow: auto;
+}
+
+.sidebar {
+    right: 0;
+    top: 200px;
+    width: 200px;
+}
+
+.sidebar h2 {
+    text-transform: uppercase;
+    color: #BB7249;
+    font-size: 14px;
+    padding-bottom: 0;
+}
+
+
+.btn {
+    color: #BB7249;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #F0EEE3;
+    padding: 5px 35px 5px 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #959188;
+}
+
+#navbar {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul {
+    float: left;
+    display: inline;
+}
+
+
+.image1 {
+    position: relative;
+    height: 100px;
+    width: 300px;
+    left: 300px;
+}
+
+.image2 {
+    height: 175px;
+    width: 450px;
+}
+
+.image3 {
+    height: 300px;
+    width: 300px;
+}
+
+.image4 {
+    height: 175px;
+    width: 450px;
+}
+
+
+
 *break into 3 sections header (fixed) , sidebar (float), about, clear for footer
 
 *btn (use for all)
