@@ -107,29 +107,23 @@ body {
     padding: 0;
 }
 
-.sidebar, .navigation, .page-section {
+.sidebar, .navigation, .page-section, .aii {
     border: dotted 2px #BB7249;
     border-spacing: 1px;
 } 
 
-.page-section {
-    
-}
-
 .page {
     position: absolute;
     background-color: white;
-    width: 900px;
-    margin-left: -450px;
+    width: 1000px;
+    margin-left: -500px;
     margin-top: 0px;
     left: 50%;
     border: solid 1px #BB7249;
 }
 
-.navigation {
-    float: left;
-    padding: 20px;
-    margin: 0;
+.page p {
+    font-size: 14px;
 }
 
 .aii {
@@ -137,10 +131,64 @@ body {
     overflow: auto;
 }
 
+.navigation {
+    float: left;
+    padding: 20px;
+    margin: 0;
+    width: 75%;
+}
+
+.page-section {
+    float: left;
+    width: 75%;
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+}
+
+.about h2 {
+    font-weight: normal;
+    color: #BB7249;
+    font-size: 20px;
+    line-height: 1.25em;
+}
+
+.image1 {
+    position: relative;
+    height: 100px;
+    width: 300px;
+    left: 400px;
+    bottom: 30px;
+}
+
+.image2 {
+    position: relative;
+    height: 150px;
+    width: 390px;
+    right: 300px;
+    top: 20px;
+}
+
+.image3 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    left: 400px;
+    bottom: 30px;
+}
+
+.image4 {
+    position: relative;
+    height: 150px;
+    width: 390px;
+    right: 300px;
+    bottom: 30px;
+}
+
 .sidebar {
-    right: 0;
+    position: absolute;
+    width: 25%;
     top: 200px;
-    width: 200px;
+    right: 0;
 }
 
 .sidebar h2 {
@@ -150,6 +198,10 @@ body {
     padding-bottom: 0;
 }
 
+.footer {
+    clear: both;
+    overflow: auto;
+}
 
 .btn {
     color: #BB7249;
@@ -178,28 +230,6 @@ body {
     display: inline;
 }
 
-
-.image1 {
-    position: relative;
-    height: 100px;
-    width: 300px;
-    left: 300px;
-}
-
-.image2 {
-    height: 175px;
-    width: 450px;
-}
-
-.image3 {
-    height: 300px;
-    width: 300px;
-}
-
-.image4 {
-    height: 175px;
-    width: 450px;
-}
 
 
 
