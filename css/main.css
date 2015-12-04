@@ -102,7 +102,7 @@ html {
 }
 
 body {
-    background-color: gray;
+    background-color: #959088;
     margin: 0;
     padding: 0;
 }
@@ -222,11 +222,6 @@ body {
     padding-top: 120px;
 }
 
-.footer {
-    clear: both;
-    overflow: auto;
-}
-
 .btn {
     color: #BB7249;
     font-size: 12px;
@@ -254,14 +249,24 @@ body {
     display: inline;
 }
 
+.foot {
+    float: left;
+    clear: both;
+    overflow: auto;
+    padding-top: 920px;
+    padding-left: 125px;
+    color: white;
+    font-size: 12px;
+}
 
+.foot li {
+    display: inline;
+    list-style-type: none;
+}
 
-
-*break into 3 sections header (fixed) , sidebar (float), about, clear for footer
-
-*btn (use for all)
-
-*sidebar h2 used for both
+.foot a {
+    color: white;
+}
 
 
 /* ==========================================================================
