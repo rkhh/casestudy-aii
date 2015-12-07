@@ -105,6 +105,12 @@ body {
     background-color: #959088;
     margin: 0;
     padding: 0;
+    display: block;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
 }
 
 .page {
@@ -290,8 +296,8 @@ body {
     float: left;
     clear: both;
     overflow: auto;
-    padding-top: 920px;
-    padding-left: 125px;
+    padding-top: 780px;
+    padding-left: 180x`px;
     color: white;
     font-size: 12px;
 }
